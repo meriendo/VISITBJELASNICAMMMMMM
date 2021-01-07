@@ -1,0 +1,87 @@
+
+body{
+
+background-image: linear-gradient(to bottom,#c8def7, #82a0bc); 
+
+}
+
+.formul {
+	border-left-style: solid;
+	border-left-width: 30px;
+  border-right-style: solid;
+  border-right-width: 30px;
+	font-family: calibri;
+	border-color: #304d6d;
+	color: #82a0bc;
+	margin: 70px 350px 80px 360px;
+	background-color: black;
+  padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 5px;
+  border-radius: 15px;
+
+}
+
+h2 {
+
+  font-size: 25px;
+  font-family: arial;
+
+}
+
+div.elem-group {
+	float:center;
+  margin: 0px 0px 0px 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+
+}
+
+label {
+  display: block;
+  color: #82a0bc;
+  text-align: left;
+  font-family: arial light;
+  padding-bottom: 4px;
+  font-size: 20px;
+  margin-top: 7px;
+  margin-bottom: 2px;
+}
+
+input, select, textarea {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: verdana light;
+  width: 100%;
+  padding: 8px;
+  font-style: italic;
+}
+
+textarea {
+  height: 170px;
+}
+
+button {
+  height: 50px;
+  background-color: #6c8dad;
+  color: black;
+  border: 2.5px solid;
+  border-color: #304d6d;
+
+  font-size: 20px;
+  font-family: calibri light;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-top: 12px;
+}
+
+button:hover {
+  background: #82a0bc;
+  color: white;
+  border-color: white;
+}
